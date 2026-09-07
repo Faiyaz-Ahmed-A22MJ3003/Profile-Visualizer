@@ -4,7 +4,7 @@ import Link from "next/link";
 
 interface LoginProps {
     onSuccess: (credentialResponse: any) => void;
-    onError: () => void;
+    onError?: () => void;
 }
 
 export default function Login({ onSuccess, onError }: LoginProps) {

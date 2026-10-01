@@ -1,4 +1,4 @@
-# Kasatria Profile Visualizer
+# Profile Visualizer
 
 An interactive 3D web application built with **Next.js**, **Three.js**, and the **Google Sheets API**. The application authenticates users via Google OAuth, retrieves profile data from a Google Sheet, and renders interactive 3D profile cards across four spatial layout configurations.
 
@@ -6,7 +6,7 @@ An interactive 3D web application built with **Next.js**, **Three.js**, and the 
 
 ## What the Project Does
 
-The Kasatria Profile Visualizer authenticates users using Google OAuth 2.0 to access read-only profile records stored in a Google Sheet.
+The Profile Visualizer authenticates users using Google OAuth 2.0 to access read-only profile records stored in a Google Sheet.
 
 Upon successful authentication, the application parses the sheet data into structured profile objects and renders them as interactive DOM elements in a 3D scene using Three.js `CSS3DRenderer`.
 
